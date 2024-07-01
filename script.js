@@ -1,6 +1,7 @@
-// Example: Form submission with alert
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Form submitted!');
-    // You can add code to send form data to a server here
-});
+var typed=new typed(".text",{
+    Strings: ["Full stack developer","web developer"],
+    typespeed:100,
+    backspeed:100,
+    backDelay:1000,
+    loop:true
+})
