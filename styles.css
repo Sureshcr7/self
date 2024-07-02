@@ -57,7 +57,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(file:///D:/self/images/self.jpg);
+    background: url("images/self.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
